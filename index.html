@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.8.2-web/css/all.css"/>
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>  
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+      
+    <h3 class="w3-wide"><b>Covid 19 Activities </b></h3>
+
+  </div>
+      
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="#education" class="w3-bar-item w3-button">Educational</a>
+    <a href="#concert" class="w3-bar-item w3-button">Concerts</a>
+    <a href="#diy" class="w3-bar-item w3-button">DIY</a>
+    <a href="#movie" class="w3-bar-item w3-button">Movies</a>
+  </div>
+    <!--
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a> -->
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">Covid 19 Activities</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+    
+    <!-- Scrolling page -->
+    <main>
+        
+        <h1 class="section-title" id="concert" w3-padding-32>Concerts</h1>
+            <section class="section">
+                <details>
+                    <summary>
+                        <h2>April</h2>
+                        <p><a href="https://www.youtube.com/user/Broadwaycom" target="_blank">Broadway</a>, <a href="https://www.facebook.com/events/2250061495303235/" target="_blank">Lindsey Ell</a>, <a href="https://www.instagram.com/p/B_SdXKfDQdc/" target="_blank">Festival for our Planet</a>, <a href="https://grammymuseum.org/museum-at-home/" target="_blank">Grammy Museum</a></p>
+                        <p>Drop down this box to find concerts in upcoming months.</p>    
+                    </summary>
+                        <h2>May</h2>
+                        <p><a href="https://www.youtube.com/user/guitarfestival" target="_blank">Guitar Festival</a>, <a href="https://www.kennychesney.com/here-and-now-preorder" target="_blank">Kenny Chesney</a></p>
+                        <h2>June</h2>
+                        <p>N/A</p>            
+                </details>
+            </section>
+        
+        <h1 class="section-title" id="concert" w3-padding-32>Concerts</h1>
+            <section class="section">
+                <details>
+                    <summary>
+                        <h2>April</h2>
+                        <p><a href="https://www.youtube.com/user/Broadwaycom" target="_blank">Broadway</a>, <a href="https://www.facebook.com/events/2250061495303235/" target="_blank">Lindsey Ell</a>, <a href="https://www.instagram.com/p/B_SdXKfDQdc/" target="_blank">Festival for our Planet</a>, <a href="https://grammymuseum.org/museum-at-home/" target="_blank">Grammy Museum</a></p>
+                        <p>Drop down this box to find concerts in upcoming months.</p>    
+                    </summary>
+                        <h2>May</h2>
+                        <p><a href="https://www.youtube.com/user/guitarfestival" target="_blank">Guitar Festival</a>, <a href="https://www.kennychesney.com/here-and-now-preorder" target="_blank">Kenny Chesney</a></p>
+                        <h2>June</h2>
+                        <p>N/A</p>            
+                </details>
+            </section>
+        
+        <h1 class="section-title" id="diy" w3-padding-32>DIY</h1>
+            <section class = "section">
+                <details>
+                    <summary>
+                        <p>Easy guide on make face masks!</p>
+                        <p><iframe width="420" height="315"src="https://youtube.com/embed/xN0HH2Zb2hY?autoplay=1"></iframe></p>
+                        
+                        <p><a href="https://somethingturquoise.com/2018/03/02/diy-painted-marble-wine-glasses/" target="_blank">Paint marble wine glasses</a></p>
+                        <img src="img/DIY_MARBLE.jpg" class="img-responsive left" style="width:30%;" alt="How to DIY a marble win glass">
+                        
+                        <p><a href="https://www.vickymyerscreations.co.uk/craft/creative-ideas-for-pebbles/" target="_blank">Rock Painting!</a></p>
+                        <img src="img/cactus1.jpg" class="img-responsive left" style="width:30%;" alt="Painting cactus on rocks">
+                        
+                        <p><a href="https://day2daygadgets.com/blogs/diy-home-decor-projects/how-to-make-a-fluffy-cost-effective-magical-cloud-light" target="_blank">Magical Cloud Light</a></p>
+                        <p><iframe width="420" height="315"src="https://youtube.com/embed/PMtEW2058qg?autoplay=1"></iframe></p>
+                        
+                        <p><a href="https://mellysews.com/how-to-make-scrunchies/" target="_blank">Let's Make Scrunchies</a></p>
+                        <p><iframe width="420" height="315"src="https://youtube.com/embed/8pni0BLwp7E?autoplay=1"></iframe></p>
+                        
+                        <p><a href="http://www.downhomeinspiration.com/coasters/" target="_blank">Cool Coasters</a></p>
+                         <img src="img/coolest-coasters.jpg" class="img-responsive left" style="width:30%;" alt="Creating cool coasters with sharpies">
+                        
+                        <p><a href="https://dearcrissy.com/diy-cat-tent-for-kitties-who-play-hard/" target="_blank">Cat Tents</a></p>
+                         <img src="img/Cat_Tent.jpg" class="img-responsive left" style="width:30%;" alt="Creating cat tents out of shirts">
+                        
+                        <p><a href="https://onelittleproject.com/rock-photo-holders/" target="_blank">Rock Photo Holder</a></p>
+                         <img src="img/rock%20photo%20holder.jpg" class="img-responsive left" style="width:30%;" alt="Making photo holders with rocks">
+                        </summary>
+                </details>
+            </section>
+       
+        
+        <h1 class="section-title" id="movie" w3-padding-32>Movies</h1>
+        <section class="section">
+            <p>
+                These movies are now streaming online:
+            </p>
+            <div class="row">
+            <div class="column">Emma</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Romance/drama</div>
+            </div>
+            <div class="row">
+            <div class="column">The Hunt</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Thriller/action</div>
+            </div>
+            <div class="row">
+            <div class="column">The Invisible Man</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Horror/thriller</div>
+            </div>
+            <div class="row">
+            <div class="column">Onward</div>
+            <div class="column">Available now</div>
+            <div class="column">Free on Disney+</div>
+            <div class="column">Animation/family</div>
+            </div>
+            <div class="row">
+            <div class="column">Birds of Prey</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Action/superhero</div>
+            </div>
+            <div class="row">
+            <div class="column">Bloodshot</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Action/adventure</div>
+            </div>
+            <div class="row">
+            <div class="column">The Gentlemen</div>
+            <div class="column">Available now</div>
+            <div class="column">$13.99</div>
+            <div class="column">Action/comedy</div>
+            </div>
+            <div class="row">
+            <div class="column">Just Mercy</div>
+            <div class="column">Available now</div>
+            <div class="column">$5.99</div>
+            <div class="column">Legal drama/drama</div>
+            </div>
+            <div class="row">
+            <div class="column">The Way Back</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Sport/drama</div>
+            </div>
+            <div class="row">
+            <div class="column">Portrait of a Lady on Fire</div>
+            <div class="column">Available now</div>
+            <div class="column">Free on hulu</div>
+            <div class="column">Romance/drama</div>
+            </div>
+            <div class="row">
+            <div class="column">Bad Boys for Life</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Comedy/action</div>
+            </div>
+            <div class="row">
+            <div class="column">Sonic the Hedgehog</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Comedy/family</div>
+            </div>
+            <div class="row">
+            <div class="column">Never Rarely Sometimes Always</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Drama</div>
+            </div>
+            <div class="row">
+            <div class="column">Trolls World Tour</div>
+            <div class="column">Available now</div>
+            <div class="column">$19.99</div>
+            <div class="column">Musical/animation</div>
+            </div>
+            <div class="row">
+            <div class="column">SCOOB!</div>
+            <div class="column">May 15</div>
+            <div class="column">$19.99</div>
+            <div class="column">Animation/adventure</div>
+            </div>
+        </section>
+        
+        <h1 class="section-title" id="games" w3-padding-32>DIY</h1>
+        <section class = "section">
+            <details>
+                    <summary>
+                        <p>Games for Kids</p>
+                        <p><a href="https://pbskids.org/games/" target="_blank">PBS Kids</a></p>
+                        <img src="img/PBSKids_Games_600x338.png" class="img-responsive left" style="width:30%;" alt="PBS Kids Games">
+                        
+                        <p><a href="https://kids.poki.com/" target="_blank">Poki Kids</a></p>
+                        <img src="img/pokikids.png" class="img-responsive left" style="width:30%;" alt="Poki Kids Website">
+                        
+                        <p><a href="https://www.crazygames.com/t/kids" target="_blank">Crazy Games</a></p>
+                        <img src="img/fireboy%20and%20watergirl.jpeg" class="img-responsive left" style="width:30%;" alt="Crazy Games website">
+                    </summary>
+                </details>
+        </section>
+        
+    </main>
+  
+
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+  <!-- End page content -->
+</div>
+
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
